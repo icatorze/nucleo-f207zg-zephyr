@@ -1,0 +1,13 @@
+menuconfig PCF8574
+	bool "PCF8574 I2C Display Driver"
+	depends on I2C
+	help
+	  Enable PCF8574 I2C Display Driver.
+	  
+if PCF8574
+	config PCF8553_ADDRESS
+	hex "Device Address"
+	default 0x7
+	help 
+		Every chip has three pins to setup between 8 different addresses
+endif #PCF8574
