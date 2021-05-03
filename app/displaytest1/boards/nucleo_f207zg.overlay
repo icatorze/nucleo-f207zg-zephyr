@@ -1,0 +1,8 @@
+&i2c1 {
+	status="okay";
+	lcd: lcd@27 {
+		compatible = "i14,pcf8574";
+		label = "LCD_I2C";
+		reg = <0x27>;
+	};
+};

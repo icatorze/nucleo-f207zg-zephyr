@@ -1,0 +1,12 @@
+mainmenu "i14 Configuration"
+
+comment "i14 Specific configuration Options"
+
+rsource "../../Kconfig.i14"
+	
+config PCF8574
+	default y
+
+
+source "Kconfig.zephyr"
+

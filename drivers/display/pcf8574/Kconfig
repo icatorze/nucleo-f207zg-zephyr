@@ -5,7 +5,7 @@ menuconfig PCF8574
 	  Enable PCF8574 I2C Display Driver.
 	  
 if PCF8574
-	config PCF8553_ADDRESS
+	config PCF8574_ADDRESS
 	hex "Device Address"
 	default 0x7
 	help 

@@ -85,4 +85,4 @@ manifest:
           revision: v1.7.2
           
     self:
-        path: nucleo-f207zg
+        path: nucleo-f207zg-zephyr
