@@ -1,3 +1,5 @@
 comment "Device Drivers"
 
 rsource "display/Kconfig"
+
+rsource "button/Kconfig"

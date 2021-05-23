@@ -1,0 +1,14 @@
+description: User button i14
+
+compatible: "i14,button"
+
+include: base.yaml
+
+properties:
+    int-gpios:
+      type: phandle-array
+      required: false
+      description: |
+        Connection for the NIRQ signal.  This signal is active-low when
+        produced by the sensor.
+

@@ -1,0 +1,5 @@
+menuconfig BUTTON
+	bool "User Button Display Driver"
+	depends on GPIO
+	help
+	  Enable User Button Display Driver.
